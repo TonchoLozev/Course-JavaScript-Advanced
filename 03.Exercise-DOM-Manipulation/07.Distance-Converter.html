@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distance Converter</title>
+    <style>
+        label, input {
+            display: inline-block;
+            width: 5em;
+        }
+
+        label {
+            text-align: right;
+        }
+    </style>
+</head>
+<body onload="attachEventsListeners()">
+<h1>Distance Converter</h1>
+<div>
+    <label for="inputDistance">From:</label>
+    <input type="text" id="inputDistance">
+    <select id="inputUnits">
+        <option value="km">Kilometers</option>
+        <option value="m">Meters</option>
+        <option value="cm">Centimeters</option>
+        <option value="mm">Millimeters</option>
+        <option value="mi">Miles</option>
+        <option value="yrd">Yards</option>
+        <option value="ft">Feet</option>
+        <option value="in">Inches</option>
+    </select>
+    <input type="button" id="convert" value="Convert">
+</div>
+<div>
+    <label for="outputDistance">To:</label>
+    <input type="text" id="outputDistance" disabled="disabled">
+    <select id="outputUnits">
+        <option value="km">Kilometers</option>
+        <option value="m">Meters</option>
+        <option value="cm">Centimeters</option>
+        <option value="mm">Millimeters</option>
+        <option value="mi">Miles</option>
+        <option value="yrd">Yards</option>
+        <option value="ft">Feet</option>
+        <option value="in">Inches</option>
+    </select>
+</div>
+<script>
+    function attachEventsListeners() {
+        let convertorTable = new Map();
+        convertorTable.set('km', 1000);
+        convertorTable.set('m', 1);
+        convertorTable.set('cm', 0.01);
+        convertorTable.set('mm', 0.001);
+        convertorTable.set('mi', 1609.34);
+        convertorTable.set('yrd', 0.9144);
+        convertorTable.set('ft', 0.3048);
+        convertorTable.set('in', 0.0254);
+
+        document.getElementById('convert').addEventListener('click', calculate);
+
+        function calculate() {
+            let inputUnits = document.getElementById('inputUnits').value;
+            let outputUnits = document.getElementById('outputUnits').value;
+            console.log(outputUnits)
+            let distance = Number(document.getElementById('inputDistance').value);
+            
+            let inputUnitsToMeters = distance * convertorTable.get(inputUnits);
+            let result = inputUnitsToMeters / convertorTable.get(outputUnits);
+
+            document.getElementById('outputDistance').value = result;
+            
+        }
+
+    }
+</script>
+</body>
+</html>

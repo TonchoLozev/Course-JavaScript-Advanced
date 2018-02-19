@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Converter</title>
+    <style>
+        label, input {
+            display: inline-block;
+            width: 5em;
+        }
+
+        label {
+            text-align: right;
+        }
+    </style>
+</head>
+<body onload="attachEventsListeners()">
+<h1>Time Converter</h1>
+<div>
+    <label for="days">Days: </label>
+    <input type="text" id="days">
+    <input id="daysBtn" type="button" value="Convert">
+</div>
+<div>
+    <label for="hours">Hours: </label>
+    <input type="text" id="hours">
+    <input id="hoursBtn" type="button" value="Convert">
+</div>
+<div>
+    <label for="minutes">Minutes: </label>
+    <input type="text" id="minutes">
+    <input id="minutesBtn" type="button" value="Convert">
+</div>
+<div>
+    <label for="seconds">Seconds: </label>
+    <input type="text" id="seconds">
+    <input id="secondsBtn" type="button" value="Convert">
+</div>
+<script>
+    function attachEventsListeners() {
+        document.getElementById('daysBtn').addEventListener('click', daysToAll);
+        document.getElementById('hoursBtn').addEventListener('click', hoursToAll);
+        document.getElementById('minutesBtn').addEventListener('click', minutesToAll);
+        document.getElementById('secondsBtn').addEventListener('click', secondToAll);
+
+        function daysToAll() {
+            let timeDays = document.getElementById('days').value;
+            document.getElementById('hours').value = Number(timeDays) * 24;
+            document.getElementById('minutes').value = Number(timeDays) * 1440;
+            document.getElementById('seconds').value = Number(timeDays) * 86400;
+
+        }
+        function hoursToAll() {
+            let timeHours = document.getElementById('hours').value;
+            document.getElementById('days').value = Number(timeHours)*0.0416667;
+            document.getElementById('minutes').value = Number(timeHours)*60;
+            document.getElementById('seconds').value = Number(timeHours)*3600;
+        }
+        function minutesToAll() {
+            let timeMinutes = document.getElementById('minutes').value;
+            document.getElementById('days').value = Number(timeMinutes) * 0.000694444;
+            document.getElementById('hours').value = Number(timeMinutes) * 0.0166667;
+            document.getElementById('seconds').value = Number(timeMinutes) * 60;
+        }
+        function secondToAll() {
+            let timeSeconds = document.getElementById('seconds').value;
+            document.getElementById('days').value = Number(timeSeconds) * 0.0000115741;
+            document.getElementById('hours').value = Number(timeSeconds) * 0.000277778;
+            document.getElementById('minutes').value = Number(timeSeconds) * 0.0166667;
+        }
+
+    }
+
+</script>
+</body>
+</html>
