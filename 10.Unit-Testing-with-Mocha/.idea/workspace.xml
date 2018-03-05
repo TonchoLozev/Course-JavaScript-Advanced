@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9debbe9d-6f8e-4592-90af-1189f89f0ec6" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/10_Unit_Testing_with_Mocha$test_05_Check_for_Symmetry_js.coverage" NAME="test\05.Check-for-Symmetry.js Coverage Results" MODIFIED="1520269825597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/10_Unit_Testing_with_Mocha$Symmetry_tests___1__2__3_should_return_false.coverage" NAME="Symmetry tests). 1, 2, 3 should return false Coverage Results" MODIFIED="1520270565367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/10_Unit_Testing_with_Mocha$Symmetry_tests____1__2__1__should_return_false.coverage" NAME="Symmetry tests).[-1, 2, 1] should return false Coverage Results" MODIFIED="1520270547494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/10_Unit_Testing_with_Mocha$Symmetry_tests__1__2__1_should_return_true.coverage" NAME="Symmetry tests.[1, 2, 1]should return true Coverage Results" MODIFIED="1520270611150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="06.RGB-to-Hex.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/06.RGB-to-Hex.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-294">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07.Add-Subtract.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07.Add-Subtract.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07.Add-Subtract.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/07.Add-Subtract.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AMD JavaScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01.Sub-Sum.js" />
+        <option value="$PROJECT_DIR$/02.Playing-Cards.js" />
+        <option value="$PROJECT_DIR$/03.Deck-of-Cards.js" />
+        <option value="$PROJECT_DIR$/test/Example-Tests.js" />
+        <option value="$PROJECT_DIR$/05.Check-for-Symmetry.js" />
+        <option value="$PROJECT_DIR$/test/05.Check-for-Symmetry.js" />
+        <option value="$PROJECT_DIR$/06.RGB-toHex.js" />
+        <option value="$PROJECT_DIR$/06.RGB-to-Hex.js" />
+        <option value="$PROJECT_DIR$/test/06.RGB-to-Hex.js" />
+        <option value="$PROJECT_DIR$/07.Add/Subtract.js" />
+        <option value="$PROJECT_DIR$/07.Add-Subtract.js" />
+        <option value="$PROJECT_DIR$/test/07.Add-Subtract.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1930" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="10.Unit-Testing-with-Mocha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10.Unit-Testing-with-Mocha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="10.Unit-Testing-with-Mocha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10.Unit-Testing-with-Mocha" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="nodejs_interpreter_path" value="E:/Programs/nodeJS/node" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="javascript.nodejs.core.library.configured.version" value="9.1.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Mocha.mochaTests">
+    <configuration name="06.RGB-to-Hex.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="06.RGB-to-Hex.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Symmetry tests). 1, 2, 3 should return false" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/05.Check-for-Symmetry.js</test-file>
+      <test-names>
+        <name value="Symmetry tests)" />
+        <name value=" 1, 2, 3 should return false" />
+      </test-names>
+    </configuration>
+    <configuration name="Symmetry tests.[1, 2, 1]should return true" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/05.Check-for-Symmetry.js</test-file>
+      <test-names>
+        <name value="Symmetry tests" />
+        <name value="[1, 2, 1]should return true" />
+      </test-names>
+    </configuration>
+    <configuration name="Symmetry tests).[-1, 2, 1] should return false" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/05.Check-for-Symmetry.js</test-file>
+      <test-names>
+        <name value="Symmetry tests)" />
+        <name value="[-1, 2, 1] should return false" />
+      </test-names>
+    </configuration>
+    <configuration name="mochaTests" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/test</test-directory>
+      <recursive>true</recursive>
+    </configuration>
+    <configuration name="test\05.Check-for-Symmetry.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/05.Check-for-Symmetry.js</test-file>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Mocha.mochaTests" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.test\05.Check-for-Symmetry.js" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Symmetry tests).[-1, 2, 1] should return false" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Symmetry tests). 1, 2, 3 should return false" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Symmetry tests.[1, 2, 1]should return true" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.06.RGB-to-Hex.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.06.RGB-to-Hex.js" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Symmetry tests.[1, 2, 1]should return true" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Symmetry tests). 1, 2, 3 should return false" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Symmetry tests).[-1, 2, 1] should return false" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test\05.Check-for-Symmetry.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9debbe9d-6f8e-4592-90af-1189f89f0ec6" name="Default" comment="" />
+      <created>1520260427241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520260427241</updated>
+      <workItem from="1520260428906" duration="2796000" />
+      <workItem from="1520264963898" duration="13823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="mochaTests - 2018.03.06 at 01h 34m 26s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 34m 38s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 35m 45s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 37m 37s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 39m 57s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 40m 38s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 42m 09s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 43m 00s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 43m 08s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="mochaTests - 2018.03.06 at 01h 43m 59s.xml">
+      <configuration name="mochaTests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16619000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33114323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39947438" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/02.Playing-Cards.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01.Sub-Sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Playing-Cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Deck-of-Cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.Sub-Sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Playing-Cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.Deck-of-Cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06.RGB-toHex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Example-Tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.Check-for-Symmetry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06.RGB-to-Hex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Add/Subtract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/06.RGB-to-Hex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/05.Check-for-Symmetry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Add-Subtract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/07.Add-Subtract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
