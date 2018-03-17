@@ -8,12 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="@types/chai" level="application" />
-    <orderEntry type="library" name="@types/jquery" level="application" />
-    <orderEntry type="library" name="@types/mocha" level="application" />
-    <orderEntry type="library" name="chai-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="jquery-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="jsdom-DefinitelyTyped" level="application" />
-    <orderEntry type="library" name="mocha-DefinitelyTyped" level="application" />
   </component>
 </module>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summary</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div id="content">
+        <p><strong>Important text. </strong>Not too important. <strong>Also useful info.</strong></p>
+    </div>
+    <input type="button" id="generate" value="Generate Summary"/>
+</div>
+<script>
+    function extract(selector) {
+        let div = $('<div>').attr('id', 'summary');
+        div.append($('<h2>Summary</h2>'));
+        let p = $('<p>');
+        $(selector).on('click', function () {
+            let content = $('#content');
+            let strong = content.find('strong');
+           // console.log(strong);
+            for(let text of strong){
+                p.append($(text).text());
+            }
+        });
+        div.append(p);
+        $($('#content').parents()[0]).append(div);
+    }
+    extract('#generate');
+</script>
+</body>
+</html>
